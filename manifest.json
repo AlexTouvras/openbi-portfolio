@@ -1,0 +1,799 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "folder": "01-ecommerce-churn-retention",
+      "slug": "ecommerce-churn-retention",
+      "title": "Ecommerce Churn Retention",
+      "summary": "Snapshot churn propensity \u2192 risk bands \u2192 designed programme effects \u2192 frozen retention budget \u2014 committed path without the live what-if lab.",
+      "pages": [
+        {
+          "id": "cover-exec",
+          "label": "Cover",
+          "caption": "Question + one-line verdict"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Base descriptive metrics"
+        },
+        {
+          "id": "model-method",
+          "label": "Model method",
+          "caption": "Serving model protocol"
+        },
+        {
+          "id": "model-versions",
+          "label": "Versions",
+          "caption": "Holdout AUC ledger"
+        },
+        {
+          "id": "model-why",
+          "label": "Drivers",
+          "caption": "SHAP / interpretability"
+        },
+        {
+          "id": "risk-map",
+          "label": "Risk map",
+          "caption": "High / Med / Low bands"
+        },
+        {
+          "id": "science-effects",
+          "label": "Effects",
+          "caption": "Designed save rates"
+        },
+        {
+          "id": "science-stress",
+          "label": "Stress",
+          "caption": "Demanding OR experiments"
+        },
+        {
+          "id": "scenario-frozen",
+          "label": "Scenario",
+          "caption": "Locked programme mix"
+        },
+        {
+          "id": "budget-frozen",
+          "label": "Budget",
+          "caption": "Designed-cap OR plan"
+        },
+        {
+          "id": "insights",
+          "label": "Insights",
+          "caption": "Numbered findings"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Recommendations + limits"
+        }
+      ]
+    },
+    {
+      "folder": "02-mortgage-vintage-pd",
+      "slug": "mortgage-vintage-pd",
+      "title": "Mortgage Vintage PD",
+      "summary": "Freddie through-the-door 12-month PD with FICO+ serving claim, vintage curves, EWI, and a Watch frozen ops path.",
+      "pages": [
+        {
+          "id": "cover-exec",
+          "label": "Cover",
+          "caption": "Vintage / OOT verdict"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Book + vintage mix"
+        },
+        {
+          "id": "label-definition",
+          "label": "Label",
+          "caption": "90 DPD vs Freddie DoD"
+        },
+        {
+          "id": "model-method",
+          "label": "Method",
+          "caption": "Dev vs calibration"
+        },
+        {
+          "id": "fico-baseline",
+          "label": "FICO baseline",
+          "caption": "External score bar"
+        },
+        {
+          "id": "fico-plus",
+          "label": "FICO+",
+          "caption": "Lift beyond FICO"
+        },
+        {
+          "id": "model-versions",
+          "label": "Versions",
+          "caption": "OOS / OOT ledger"
+        },
+        {
+          "id": "model-why",
+          "label": "Drivers",
+          "caption": "Feature contributions"
+        },
+        {
+          "id": "vintage-curves",
+          "label": "Vintages",
+          "caption": "Realised 12m PD curves"
+        },
+        {
+          "id": "early-warning",
+          "label": "EWI",
+          "caption": "Early DQ lead\u2013lag"
+        },
+        {
+          "id": "risk-grades",
+          "label": "Grades",
+          "caption": "LRA-calibrated grades"
+        },
+        {
+          "id": "monitoring",
+          "label": "Monitoring",
+          "caption": "PSI + vintage drift"
+        },
+        {
+          "id": "watch-pulse",
+          "label": "Watch pulse",
+          "caption": "Situation awareness"
+        },
+        {
+          "id": "monitor-frozen",
+          "label": "Watch frozen",
+          "caption": "Findings \u2192 options \u2192 actions"
+        },
+        {
+          "id": "insights",
+          "label": "Insights",
+          "caption": "Numbered findings"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Recommendations"
+        }
+      ]
+    },
+    {
+      "folder": "03-mortgage-lifecycle-monitor",
+      "slug": "mortgage-lifecycle-monitor",
+      "title": "Mortgage Lifecycle Monitor",
+      "summary": "Early-delinquency funnel / throughput vs a frozen develop baseline \u2014 process Watch, not a new PD score.",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "OOT process verdict"
+        },
+        {
+          "id": "funnel",
+          "label": "Funnel",
+          "caption": "EWI 30/60/90 by vintage"
+        },
+        {
+          "id": "sealed",
+          "label": "Sealed",
+          "caption": "OOT vs frozen lines"
+        },
+        {
+          "id": "monitor-frozen",
+          "label": "Frozen ops",
+          "caption": "Findings \u2192 options \u2192 actions"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Limits + next pointers"
+        }
+      ]
+    },
+    {
+      "folder": "04-mortgage-stream-drift",
+      "slug": "mortgage-stream-drift",
+      "title": "Mortgage Stream Drift",
+      "summary": "Alarm when Freddie origination mix leaves a frozen reference \u2014 Insects drift grammar applied to credit.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Detect \u2192 understand \u2192 adapt"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Sealed KPIs + delay"
+        },
+        {
+          "id": "stream",
+          "label": "Stream",
+          "caption": "Book rate + event marks"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "PSI heat + freeze card"
+        },
+        {
+          "id": "timeline",
+          "label": "Timeline",
+          "caption": "Dual scores + alarms"
+        },
+        {
+          "id": "sealed",
+          "label": "Sealed",
+          "caption": "Delay / FAR compare"
+        },
+        {
+          "id": "monitor-frozen",
+          "label": "Frozen lab",
+          "caption": "Sealed stop defaults"
+        },
+        {
+          "id": "honesty",
+          "label": "Honesty",
+          "caption": "Book mix (not the pass)"
+        },
+        {
+          "id": "apply",
+          "label": "Apply",
+          "caption": "Watch \u2192 stop \u2192 new version"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + limits"
+        }
+      ]
+    },
+    {
+      "folder": "05-credit-origination-scorecard",
+      "slug": "credit-origination-scorecard",
+      "title": "Credit Origination Scorecard",
+      "summary": "Home Credit booked cash loans: WoE points card vs EXT_MEAN, with holdout grades and PSI honesty.",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Holdout Gini vs EXT_MEAN"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Cash-loan booked book"
+        },
+        {
+          "id": "quality",
+          "label": "Quality",
+          "caption": "Fit keep / quarantine"
+        },
+        {
+          "id": "outliers",
+          "label": "Outliers",
+          "caption": "Sentinel + fences"
+        },
+        {
+          "id": "sources",
+          "label": "Sources",
+          "caption": "Seven tables \u2192 fields"
+        },
+        {
+          "id": "characteristics",
+          "label": "Characteristics",
+          "caption": "IV + WoE bars"
+        },
+        {
+          "id": "scorecard",
+          "label": "Scorecard",
+          "caption": "Per-app points story"
+        },
+        {
+          "id": "model-method",
+          "label": "Method",
+          "caption": "Freeze + leakage denylist"
+        },
+        {
+          "id": "model-versions",
+          "label": "Versions",
+          "caption": "ROC / AUC ledger"
+        },
+        {
+          "id": "interpret",
+          "label": "TreeSHAP",
+          "caption": "Tree drivers (ceiling)"
+        },
+        {
+          "id": "calibration",
+          "label": "Calibration",
+          "caption": "Reliability + Brier"
+        },
+        {
+          "id": "grades",
+          "label": "Grades",
+          "caption": "Butterfly grade queue"
+        },
+        {
+          "id": "stability",
+          "label": "Stability",
+          "caption": "Train vs holdout PSI"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + refusals"
+        }
+      ]
+    },
+    {
+      "folder": "06-household-budget-shares",
+      "slug": "household-budget-shares",
+      "title": "Household Budget Shares",
+      "summary": "Multivariate share system vs rescaled separate equations \u2014 sealed category-MAE bar not met; gap still shown.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Budget identity + gates"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Pass / miss on allocation"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Interviews + spend level"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "caption": "Shares + omitted equation"
+        },
+        {
+          "id": "engel",
+          "label": "Engel",
+          "caption": "Shares vs budget size"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "Freeze + category CPI"
+        },
+        {
+          "id": "dependence",
+          "label": "Dependence",
+          "caption": "Residual correlation"
+        },
+        {
+          "id": "prices",
+          "label": "Prices",
+          "caption": "Own-price slopes"
+        },
+        {
+          "id": "joint",
+          "label": "Joint",
+          "caption": "Joint slope region"
+        },
+        {
+          "id": "equations",
+          "label": "Equations",
+          "caption": "Slope story strip"
+        },
+        {
+          "id": "versions",
+          "label": "Versions",
+          "caption": "Gap + MAE seal"
+        },
+        {
+          "id": "why",
+          "label": "Why",
+          "caption": "Categories that move"
+        },
+        {
+          "id": "gap",
+          "label": "Gap",
+          "caption": "Unscaled miss shape"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + limits"
+        }
+      ]
+    },
+    {
+      "folder": "07-medicare-peer-review",
+      "slug": "medicare-peer-review",
+      "title": "Medicare Peer Review",
+      "summary": "Provider-year anomaly ceiling: sealed HGB AUC clears the literature line under a time-forward seal.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Contextual score theory"
+        },
+        {
+          "id": "methodology",
+          "label": "Methodology",
+          "caption": "Peer cell \u2192 queue pipeline"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Sealed AUC verdict"
+        },
+        {
+          "id": "modelling",
+          "label": "Modelling",
+          "caption": "Freeze + AUC by learner"
+        },
+        {
+          "id": "attempts",
+          "label": "Attempts",
+          "caption": "Ladder of attempts"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Rows / NPIs / LEIE rate"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "caption": "Keep-list + match limits"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "Active-claim freeze knobs"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + rollback"
+        }
+      ]
+    },
+    {
+      "folder": "08-online-retail-segments",
+      "slug": "online-retail-segments",
+      "title": "Online Retail Segments",
+      "summary": "k-means on fit RFM beats RFM bins on sealed top-2 spend; warmer-pool economics claim also passed.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "k-means + RFM gates"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Pass line + sealed \u00a3"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Customers + windows"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "Silhouette k + ARI"
+        },
+        {
+          "id": "challengers",
+          "label": "Challengers",
+          "caption": "Medoids / GMM board"
+        },
+        {
+          "id": "profiles",
+          "label": "Profiles",
+          "caption": "Segment profiles"
+        },
+        {
+          "id": "map",
+          "label": "Map",
+          "caption": "R \u00d7 M scatter"
+        },
+        {
+          "id": "geography",
+          "label": "Geography",
+          "caption": "Segment \u00d7 country"
+        },
+        {
+          "id": "forward",
+          "label": "Forward",
+          "caption": "Sealed \u00a3 + lift"
+        },
+        {
+          "id": "economics",
+          "label": "Economics",
+          "caption": "Win-back net spend"
+        },
+        {
+          "id": "queue",
+          "label": "Queue",
+          "caption": "Win-back contact list"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + limits"
+        }
+      ]
+    },
+    {
+      "folder": "09-online-retail-association",
+      "slug": "online-retail-association",
+      "title": "Online Retail Association",
+      "summary": "FP-Growth top rules beat popularity pairs on mean sealed confidence \u2014 Frozen explorer/offers twins only.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Support / conf / lift"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Sealed confidence verdict"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Baskets + windows"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "FP-Growth vs popularity"
+        },
+        {
+          "id": "explorer-frozen",
+          "label": "Explorer frozen",
+          "caption": "Rules twin for slides"
+        },
+        {
+          "id": "sealed",
+          "label": "Sealed",
+          "caption": "Challenger vs baseline"
+        },
+        {
+          "id": "calibration",
+          "label": "Calibration",
+          "caption": "Fit \u2192 sealed conf"
+        },
+        {
+          "id": "uk-slice",
+          "label": "UK slice",
+          "caption": "UK vs non-UK fire"
+        },
+        {
+          "id": "segments",
+          "label": "Segments",
+          "caption": "Cross-walk to k-means"
+        },
+        {
+          "id": "extras",
+          "label": "Extras",
+          "caption": "Conviction / leverage"
+        },
+        {
+          "id": "offers-frozen",
+          "label": "Offers frozen",
+          "caption": "Illustrative offer twin"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + limits"
+        }
+      ]
+    },
+    {
+      "folder": "10-online-retail-sequences",
+      "slug": "online-retail-sequences",
+      "title": "Online Retail Sequences",
+      "summary": "PrefixSpan sequential rules beat Markov-1 on mean sealed confidence \u2014 next-buy paths without Interactive labs.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Sequence support gates"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Sealed confidence verdict"
+        },
+        {
+          "id": "population",
+          "label": "Population",
+          "caption": "Sequences + alphabet"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "PrefixSpan vs Markov-1"
+        },
+        {
+          "id": "paths",
+          "label": "Paths",
+          "caption": "Top sequential rules"
+        },
+        {
+          "id": "sealed",
+          "label": "Sealed",
+          "caption": "Challenger vs baseline"
+        },
+        {
+          "id": "offers",
+          "label": "Offers",
+          "caption": "Next-buy queue"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + limits"
+        }
+      ]
+    },
+    {
+      "folder": "11-insect-stream-drift",
+      "slug": "insect-stream-drift",
+      "title": "Insect Stream Drift",
+      "summary": "Distribution challenger hits annotated abrupt change points with lower mean delay than Lewis PSI.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Abrupt regimes vs accuracy"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Delay / FAR / hit verdict"
+        },
+        {
+          "id": "stream",
+          "label": "Stream",
+          "caption": "Feature smoking-gun"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "PSI vs challenger"
+        },
+        {
+          "id": "timeline",
+          "label": "Timeline",
+          "caption": "Alarms vs CP bands"
+        },
+        {
+          "id": "sealed",
+          "label": "Sealed",
+          "caption": "Delay / FAR compare"
+        },
+        {
+          "id": "monitor-lab-frozen",
+          "label": "Frozen lab",
+          "caption": "Sealed lever defaults"
+        },
+        {
+          "id": "honesty",
+          "label": "Honesty",
+          "caption": "Species mix (not pass)"
+        },
+        {
+          "id": "apply",
+          "label": "Apply",
+          "caption": "Cross-domain recipe"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + twin pointer"
+        }
+      ]
+    },
+    {
+      "folder": "12-electricity-market-drift",
+      "slug": "electricity-market-drift",
+      "title": "Electricity Market Drift",
+      "summary": "Vic feature challenger hits the NEM-trial week with delay 0 and FAR 0% vs Lewis PSI FAR 100%.",
+      "pages": [
+        {
+          "id": "introduction",
+          "label": "Introduction",
+          "caption": "Real vs virtual drift"
+        },
+        {
+          "id": "cover",
+          "label": "Cover",
+          "caption": "Delay / FAR / hit verdict"
+        },
+        {
+          "id": "market",
+          "label": "Market",
+          "caption": "Vic series + NEM mark"
+        },
+        {
+          "id": "method",
+          "label": "Method",
+          "caption": "PSI vs challenger"
+        },
+        {
+          "id": "timeline",
+          "label": "Timeline",
+          "caption": "Alarms vs event band"
+        },
+        {
+          "id": "sealed",
+          "label": "Sealed",
+          "caption": "Delay / FAR compare"
+        },
+        {
+          "id": "monitor-lab-frozen",
+          "label": "Frozen lab",
+          "caption": "Sealed lever defaults"
+        },
+        {
+          "id": "honesty",
+          "label": "Honesty",
+          "caption": "No-Change honesty"
+        },
+        {
+          "id": "apply",
+          "label": "Apply",
+          "caption": "Cross-domain recipe"
+        },
+        {
+          "id": "close",
+          "label": "Close",
+          "caption": "Findings + limits"
+        }
+      ]
+    },
+    {
+      "folder": "13-finnish-vehicle-market-intelligence",
+      "slug": "finnish-vehicle-market-intelligence",
+      "title": "Finnish Vehicle Market Intelligence",
+      "summary": "Public Traficom / CPI market pack \u2014 composition through valuation overview (no Frozen twin; default view only).",
+      "pages": [
+        {
+          "id": "market-01",
+          "label": "Composition",
+          "caption": "Vehicle composition"
+        },
+        {
+          "id": "market-02",
+          "label": "Drivers",
+          "caption": "Value drivers"
+        },
+        {
+          "id": "market-03",
+          "label": "Method",
+          "caption": "Market data \u2192 valuation"
+        },
+        {
+          "id": "market-04",
+          "label": "Valuation",
+          "caption": "Vehicle valuation strip"
+        },
+        {
+          "id": "market-05",
+          "label": "Overview",
+          "caption": "Market overview"
+        },
+        {
+          "id": "market-06",
+          "label": "Decisions",
+          "caption": "Supporting better decisions"
+        }
+      ]
+    }
+  ]
+}

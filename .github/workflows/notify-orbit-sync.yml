@@ -1,0 +1,36 @@
+name: Notify Orbit OpenBI sync
+
+# When screenshots or pack READMEs change, ask Orbit to re-sync the
+# portfolio showcase. Requires repo secret ORBIT_DISPATCH_TOKEN
+# (PAT or fine-grained token with contents:write on AlexTouvras/Orbit).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/screenshots/**"
+      - "**/README.md"
+      - "0*/**"
+      - "manifest.json"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch openbi-sync on Orbit
+        id: dispatch
+        continue-on-error: true
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.ORBIT_DISPATCH_TOKEN }}
+          repository: AlexTouvras/Orbit
+          event-type: openbi-sync
+          client-payload: '{"source":"openbi-portfolio","sha":"${{ github.sha }}"}'
+
+      - name: ORBIT_DISPATCH_TOKEN not configured
+        if: ${{ steps.dispatch.outcome == 'failure' }}
+        run: |
+          echo "::warning::Could not dispatch openbi-sync to AlexTouvras/Orbit."
+          echo "Add repo secret ORBIT_DISPATCH_TOKEN (PAT with contents:write on Orbit),"
+          echo "or run Sync OpenBI portfolio manually on AlexTouvras/Orbit."
